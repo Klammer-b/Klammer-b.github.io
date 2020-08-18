@@ -1,0 +1,457 @@
+
+body{
+    font-family: Roboto, sans-serif;
+}
+.header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.header>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-right: auto;
+}
+.logo-uber{
+    padding-right: 9px;
+}
+.shop{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+}
+.login{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: 16px;
+    width: 78px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+} 
+.container{
+    max-width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.restaurant-preview{
+    background-image: url(../img/pushkin1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.restaurant-preview>.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.restaurant-name{
+    padding: 38px 38px;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1D1D1D;
+}
+.preview-card{
+    background-color: #fff;
+    width: 389px;
+    padding-bottom: 38px;
+}
+.restaurant-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 38px;
+    margin-right: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.time{
+    padding: 8px 16px;
+    background: #262626;
+    border-radius: 16px;
+    color: #fff;
+    margin: 0;
+}
+.tab-menu{
+    padding-top: 32px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.tab-menu-mobile{
+    display: none;
+
+}
+.tab-menu-mobile>span {
+    display: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-right: 0;
+}
+.tab-menu-mobile>.active {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+.tab-menu-desktop>.active {
+    color: #49A144;
+}
+.tab-menu-mobile>.line{
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+.tab-menu-category{
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+}
+.menu{
+    padding-top: 56px;
+    padding-bottom: 80px;
+}
+.menu-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+.meal-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.meal-card{
+    width: 470px;
+    height: 160px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+    cursor: pointer;
+}
+.meal-info{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.meal-name{
+    margin: 0;
+    padding-bottom: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.meal-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+.meal-price{
+    margin-top: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+.social-and-language {
+    display: flex;
+}
+.info {
+    background-color: #262626;
+    border-top: 1px solid #fff;
+}
+.logo-footer{
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #fff;
+}
+.logo-uber-footer{
+    padding-right: 15px;
+}
+.language-menu{
+    background-color: #3B3B3B;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 227px;
+    height: 40px;
+    outline: none;
+    margin-top: 32px;
+    border:none;
+}
+.world{
+    padding-left: 16px;
+}
+.selected-language{
+    padding-left: 16px;
+}
+.arrow{
+    padding-left: 104px;
+    padding-right: 8px;
+}
+.hashtag{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #49A144;
+}
+.insta{
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 33px;
+}
+.social{
+    background-color:#262626 ;
+    cursor: pointer;
+    margin-top: 17px;
+}
+.about-and-social{
+    display: flex;
+}
+.about{
+    display: flex;
+    padding-top: 39px;
+    padding-left: 97px;
+}
+.left-side,
+.right-side {
+    text-decoration: none;
+     font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 23px;
+}
+.left-side{
+    display: block;
+    padding-right: 128px;
+
+}
+.footer{
+    background-color: #262626;
+}
+.date,
+.personal, 
+.agreement{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    display: inline-block;
+
+}
+.download{
+    background-color: #262626;
+    text-align: center;
+}
+.appstore{
+    margin-right: 40px;
+    
+}
+.info>.container, .download>.container {
+    border-bottom:  1px solid #fff;
+    padding-bottom: 40px;
+    padding-top: 56px;
+}
+.download>.container {
+    padding-top: 40px;
+}
+.footer>.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.up{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #59BD5A;
+    border-radius: 2px;
+    right:24px;
+    bottom: 16px;
+    cursor: pointer;
+    border: none;
+}
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .meal-card{
+        flex-basis: 100%;
+    }
+    .left-side{
+        padding-right: 98px;
+    }
+    .menu {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .left-side {
+        padding-right: 18px;
+    }
+    .about {
+        padding-left: 20px;
+    }
+    .preview-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tab-menu-category {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 95%;
+    }
+    .restaurant-preview>.container{
+        display: flex;
+        justify-content: center;
+    }
+    .preview-card{
+        width: 90%;
+        height: 180px;
+        margin-top: 131px;
+        position: absolute;
+        box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+        border-radius: 2px;
+        padding-bottom: 0;
+    }
+    .restaurant-preview>.container{
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 255px;
+    }
+    .restaurant-name {
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 42px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .restaurant-description{
+        display: block;
+    }
+    .description{
+        text-align: center;
+    }
+    .time{
+        width: 30%;
+        text-align: center;
+        margin: auto;
+    }
+    .shop{
+        display: none;
+    }
+    .login{
+        margin-right: 0;
+    }
+    .social-and-language {
+        flex-direction: column;
+    }
+    .about {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .download{
+    padding-bottom: 0;
+    }
+    .footer>.container{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .date, .personal{
+        padding-bottom: 24px;
+    }
+    .menu{
+        padding-bottom: 0;
+    }
+    .tab-menu{
+        border-bottom: none;
+    }
+    .tab-menu-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 95px;
+    }
+    .tab-menu-desktop{
+        display: none;
+    }
+    .meal-card{
+        height: 102px;
+        margin-bottom: 16px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+    .meal-card>img{
+        width: 30%;
+    }
+    .meal-info{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .meal-name{
+        padding-bottom: 0;
+    }
+    .menu-name{
+        display: none;
+    }
+}
