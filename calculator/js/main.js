@@ -88,6 +88,6 @@ function resetAndAlert(){
     priceInput.value = '';
     weightInput.value = '';
     let result = calculator(weight, price);
-    resultField.textContent = `Доставка будет стоить ${result} грн`;
+    resultField.textContent = `Доставка будет стоить ${Math.round(result)} грн`;
 }
 
